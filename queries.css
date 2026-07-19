@@ -24,6 +24,28 @@
   main {
     padding-inline: 4.8rem;
   }
+
+  .testimonial--blue {
+    position: relative;
+  }
+
+  .testimonial--blue::after {
+    content: "";
+    background-image: url("images/bg-pattern-quotation.svg");
+    width: 10.3rem;
+    height: 10.3rem;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+
+  .testimonial_title {
+    position: relative;
+    z-index: 100;
+  }
 }
 
 /* LAPTOP (1024PX) */
