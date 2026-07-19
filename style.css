@@ -60,7 +60,7 @@ body {
 }
 
 /* TESTIMONIAL SECTION */
-.section-testimonials {
+main {
   padding-inline: var(--space-400);
 }
 

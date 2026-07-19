@@ -8,7 +8,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .container {
+  main {
     padding-inline: var(--space-500);
   }
 
@@ -21,8 +21,8 @@
 
 /* LARGER TABLETS (768PX) */
 @media (min-width: 48em) {
-  .section-testimonials {
-    padding-inline: 9.6rem;
+  main {
+    padding-inline: 4.8rem;
   }
 }
 
@@ -33,7 +33,10 @@
     grid-auto-flow: dense;
     column-gap: var(--space-400);
     row-gap: var(--space-300);
-    padding-inline: var(--space-400);
+  }
+
+  main {
+    padding-inline: var(--space-800);
   }
 
   .testimonial--blue {
