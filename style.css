@@ -1,0 +1,64 @@
+/********************************************/
+/* RESET STYLES */
+/********************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/********************************************/
+/* DESIGN SYSTEM */
+/********************************************/
+:root {
+  --clr-black: #121212;
+  --clr-dark-blue: #19202d;
+  --clr-white: #fff;
+  --clr-grey-100: #e7eaee;
+  --clr-grey-200: #cfcfcf;
+  --clr-grey-400: #676d7e;
+  --clr-grey-500: #48556a;
+  --clr-purple-50: #ede4ff;
+  --clr-purple-300: #a775f1;
+  --clr-purple-500: #733fc8;
+
+  /* note: for typogrpahy normally use font scale but in this case, just use the values present since they don't follow a typescale at all .... */
+  --fs-11px: 1.1rem;
+  --fs-13px: 1.3rem;
+  --fs-15px: 1.5rem;
+  --fs-20px: 2rem;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+
+  --space-50: 0.4rem;
+  --space-100: 0.8rem;
+  --space-200: 1.6rem;
+  --space-300: 2.4rem;
+  --space-400: 3.2rem;
+  --space-500: 4rem;
+  --space-600: 4.8rem;
+  --space-800: 6.4rem;
+}
+
+/********************************************/
+/* SPECIFIC STYLES */
+/********************************************/
+html {
+  font-size: 62.5%; /*10px if default font-size is set to 16px (makes calculation easy)*/
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  line-height: 1;
+}
+
+/********************************************/
+/* REUSABLE COMPONENTS */
+/********************************************/
+
+/********************************************/
+/* UTILITY / HELPER CLASSES */
+/********************************************/
+.container {
+  max-width: 111.4rem;
+}
