@@ -53,6 +53,10 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1;
   background-color: var(--clr-bg);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
 }
 
 /* TESTIMONIAL SECTION */

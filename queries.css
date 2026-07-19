@@ -1,0 +1,58 @@
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+/* TABLETS (544PX) */
+@media (min-width: 34em) {
+  .section-testimonials {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container {
+    padding-inline: var(--space-500);
+  }
+
+  .testimonial--blue,
+  .testimonial--dark-blue,
+  .testimonial:nth-child(5).testimonial--white {
+    grid-column: span 2;
+  }
+}
+
+/* LARGER TABLETS (768PX) */
+@media (min-width: 48em) {
+  .section-testimonials {
+    padding-inline: 9.6rem;
+  }
+}
+
+/* LAPTOP (1024PX) */
+@media (min-width: 64em) {
+  .section-testimonials {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: dense;
+    column-gap: var(--space-400);
+    row-gap: var(--space-300);
+    padding-inline: var(--space-400);
+  }
+
+  .testimonial--blue {
+    grid-column: span 2;
+  }
+
+  .testimonial--grey {
+  }
+
+  .testimonial--white.testimonial:nth-child(3) {
+    grid-column: 1;
+  }
+
+  .testimonial--dark-blue {
+    grid-column: span 2;
+  }
+
+  .testimonial:nth-child(5).testimonial--white {
+    grid-column: auto;
+    grid-row: span 2;
+  }
+}
